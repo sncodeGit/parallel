@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-threads = ['1', '2', '4', '8', '10', '16']
+threads = ['1', '2', '4', '8', '10', '16', '20', '24', '30', '35', '40']
 NUM = 'monte-carlo'
 df = pd.read_csv(NUM + '.csv')
 df = df.set_index('size')

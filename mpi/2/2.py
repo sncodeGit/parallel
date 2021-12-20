@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-threads = ['1', '2', '4', '8', '10', '16']
+threads = ['1', '2', '4', '8', '10', '16', '20', '30']
 NUM = '2'
 df = pd.read_csv(NUM + '.csv')
 df = df.set_index('size')
